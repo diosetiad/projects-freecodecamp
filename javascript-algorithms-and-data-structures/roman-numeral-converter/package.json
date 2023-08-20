@@ -1,0 +1,23 @@
+{
+  "name": "roman-numeral-converter-freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "romanNumeralConverter.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diosetiad/romannumeralconverter-freeCodeCamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diosetiad/romannumeralconverter-freeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/diosetiad/romannumeralconverter-freeCodeCamp#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

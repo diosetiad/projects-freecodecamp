@@ -1,0 +1,145 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* Variable CSS */
+:root {
+  /* Colors */
+  --text-color: #fff;
+  --body-color: #000;
+  --img-color: #a58bff;
+
+  /* Font and Typography */
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+
+  /* Font Weight */
+  --font-medium: 500;
+  --font-bold: 700;
+}
+
+/* Base */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2 {
+  font-weight: var(--font-bold);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--img-color);
+}
+
+#main {
+  max-width: 1024px;
+  margin: 1.5rem;
+  overflow: hidden;
+}
+
+/* Tribute-profile */
+#tribute-profile {
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  padding-bottom: 1rem;
+}
+
+#desc {
+  font-size: var(--small-font-size);
+  padding-bottom: 10px;
+}
+
+#img-div {
+  background-color: var(--img-color);
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+
+#image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#img-caption {
+  font-size: var(--normal-font-size);
+  padding: 10px;
+}
+
+/* Tribute-info */
+#tribute-info {
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  margin-top: 1.5rem;
+}
+
+ul {
+  text-align: justify;
+  margin-bottom: 2.5rem;
+}
+
+li {
+  font-size: var(--normal-font-size);
+  margin: 16px 0;
+}
+
+#readmore {
+  font-size: var(--small-font-size);
+}
+
+/* Breakpoints */
+@media screen and (max-width: 320px) {
+  #main {
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #img-div {
+    width: 976px;
+    margin: auto;
+  }
+
+  ul {
+    width: 976px;
+    margin: auto auto 2.5rem auto;
+  }
+}

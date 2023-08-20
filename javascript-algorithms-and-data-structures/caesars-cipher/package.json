@@ -1,0 +1,23 @@
+{
+  "name": "caesars-cipher-freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caesarsCipher.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diosetiad/caesarscipher-freeCodeCamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diosetiad/caesarscipher-freeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/diosetiad/caesarscipher-freeCodeCamp#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

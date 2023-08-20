@@ -1,0 +1,23 @@
+{
+  "name": "telephone-number-validator-freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "telephoneNumberValidator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diosetiad/telephonenumbervalidator-freeCodeCamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diosetiad/telephonenumbervalidator-freeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/diosetiad/telephonenumbervalidator-freeCodeCamp#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
